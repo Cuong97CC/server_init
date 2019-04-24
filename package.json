@@ -1,0 +1,36 @@
+{
+  "name": "my-tools-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "NODE_ENV=production nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cuong97CC/my-tools-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cuong97CC/my-tools-server/issues"
+  },
+  "homepage": "https://github.com/Cuong97CC/my-tools-server#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
+  }
+}

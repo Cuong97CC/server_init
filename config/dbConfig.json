@@ -1,0 +1,7 @@
+{
+  "port" : "27017",
+  "database" : "my_tools",
+  "prod_db": "my_tools",
+  "user": "cuong",
+  "password": "nc123456"
+}
